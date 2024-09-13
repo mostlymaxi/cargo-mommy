@@ -181,6 +181,8 @@ fn real_main() -> Result<i32, Box<dyn std::error::Error>> {
                 None => print!(")"),
             }
         }
+
+        println!();
     }
 
     // Time for mommy to tell you how you did~
